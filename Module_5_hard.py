@@ -76,7 +76,7 @@ class UrTube:
                     print('Вам нет 18 лет, пожалуйста покиньте страницу')
                     return
                 for j in range(1,i.duration+1):
-                    print(j, sep=' ', end=' ', flush=True);sleep(0.1)
+                    print(j, sep=' ', end=' ', flush=True);sleep(0.5)
                 print('Конец видео')
 
 
